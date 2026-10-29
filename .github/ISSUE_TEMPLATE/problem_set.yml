@@ -1,0 +1,32 @@
+name: Problem set
+description: Course homework
+title: "[PS] "
+labels: ["type:problem-set"]
+body:
+  - type: input
+    id: number
+    attributes:
+      label: Problem set number and topic
+      placeholder: e.g. PS03 Logical Architecture
+    validations:
+      required: true
+  - type: input
+    id: due
+    attributes:
+      label: Due date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task statement
+  - type: textarea
+    id: parts
+    attributes:
+      label: Parts and owners
+      value: |
+        - [ ] Part 1, owner:
+        - [ ] Part 2, owner:
+        - [ ] Folder problem-sets/PSNN_<topic> with README
+        - [ ] Submitted

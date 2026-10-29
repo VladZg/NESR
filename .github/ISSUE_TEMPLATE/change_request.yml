@@ -1,0 +1,44 @@
+name: Change request
+description: Change to a baselined item (version v1.0 or later)
+title: "[CR] "
+labels: ["type:change-request"]
+body:
+  - type: input
+    id: ci
+    attributes:
+      label: CI ID and current version
+      placeholder: e.g. REQ-003 v1.0
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact on
+      options:
+        - label: Requirements
+        - label: MBSE model
+        - label: Interfaces / ICDs
+        - label: V&V plan
+        - label: Risks
+        - label: Compliance
+  - type: textarea
+    id: approval
+    attributes:
+      label: Approval (at least 3 of 4 members)
+      value: |
+        - [ ] Vladislav Zagorodnyuk
+        - [ ] Victoria Kulikova
+        - [ ] Jash Joshi
+        - [ ] Mikhail Timofeenko

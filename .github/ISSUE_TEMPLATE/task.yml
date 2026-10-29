@@ -1,0 +1,58 @@
+name: Task
+description: A piece of work for the project or a problem set
+title: "[Task] "
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to be done
+      description: Clear outcome, not activity.
+    validations:
+      required: true
+  - type: dropdown
+    id: pdr
+    attributes:
+      label: Related PDR deliverable
+      options:
+        - "1 MBSE model"
+        - "2 ConOps"
+        - "3 Technical requirements"
+        - "4 Project management plan and WBS"
+        - "5 Risk analysis"
+        - "6 V&V plans"
+        - "7 Interface management plan"
+        - "8 CM and DM baseline plan"
+        - "9 Maritime compliance"
+        - "Problem set"
+        - "Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Owner
+      options:
+        - Vladislav Zagorodnyuk
+        - Victoria Kulikova
+        - Jash Joshi
+        - Mikhail Timofeenko
+        - Whole team
+  - type: input
+    id: due
+    attributes:
+      label: Due date
+      placeholder: YYYY-MM-DD
+  - type: input
+    id: ci
+    attributes:
+      label: Configuration items (CI IDs) affected
+      placeholder: e.g. REQ-003, MOD-007
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ] Files named per CONTRIBUTING.md
+        - [ ] Version bumped in document header and register
+        - [ ] Reviewed by a teammate

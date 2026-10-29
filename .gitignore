@@ -1,0 +1,16 @@
+# Capella / Eclipse workspace
+.metadata/
+*.lock
+*.bak
+.project.lock
+
+# Office temporary files
+~$*
+*.tmp
+
+# OS and Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
