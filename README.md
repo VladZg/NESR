@@ -14,7 +14,7 @@ Team 3 project, Systems Engineering course (Skoltech, 2026/2027). Topic: *Satell
 | **Users** | Ship operators, ship and cargo owners, logistics operators, Port Authorities, dispatchers, Rescue Services. |
 | **System of interest** | Ground integration platform (data ingest, ice charts, risk analytics, dashboards, dispatch, logging) and the on-board ship terminal. |
 | **External systems** | Kondor-FKA (SAR ice imaging), Arktika-M (meteorology), Gonets/Sfera (satellite relay), GLONASS (navigation). |
-| **Service area** | NSR water area, 66°N to 82°N, Kara Gates to Bering Strait. |
+| **Service area** | NSR water area and the nine designated Russian Artic Ports 64°N to 82°N, Murmansk and Arkhangelsk to Bering Strait.|
 | **Lifecycle phase** | Pre-Phase A / Phase A (NASA), working towards PDR. |
 
 **Key performance targets** (from [technical requirements](03_Requirements/T3_REQ-003_System-and-Technical-Requirements.md)):
