@@ -2,7 +2,7 @@
 
 | CI | Version | Status | Owner | Updated |
 | --- | --- | --- | --- | --- |
-| REQ-001 | v0.2 | Draft | Jash Joshi | 2026-11-03 |
+| REQ-001 | v0.3 | Draft | Jash Joshi | 2026-11-06 |
 
 ## Mission statement
 
@@ -16,7 +16,7 @@ Ships and the people who route them through ice decide with ice information that
 
 | Goal | Objective | MOE |
 | --- | --- | --- |
-| G1 Continuous connectivity | Two-way data link to ships at 66–82°N | Availability ≥ 99.0% (TBR) in the service area (route ±20 nm and ports); delivery within the time of the message class (REQ-003 TR-35) |
+| G1 Continuous connectivity | Two-way data link to ships at 66–82°N | Availability ≥ 99.0% (TBR) in the service area (35 km around the route and ports); delivery within the time of the message class (REQ-003 TR-17) |
 | G2 All-weather ice observation | Image NSR ice independent of cloud and daylight | Ice chart resolution ≤ 50 m; information age ≤ 24 h (TBR) |
 | G3 Timely delivery | Ice products and warnings reach the bridge in time to act | Warning lead time ≥ 6 h in ≥ 90% of events |
 | G4 Maritime awareness | Live picture of all connected ships for authorities and owners | Position age ≤ 30 min |
@@ -28,3 +28,4 @@ Ships and the people who route them through ice decide with ice information that
 | --- | --- | --- | --- |
 | v0.1 | 2026-10-29 | Jash Joshi | First version in the repository |
 | v0.2 | 2026-11-03 | Vladislav Zagorodnyuk | MOEs of G1 and G5 aligned with REQ-003 v0.4 (message classes, service area, 10 m position error removed; review M5, M6, M9) |
+| v0.3 | 2026-11-06 | Vladislav Zagorodnyuk | G1 aligned with REQ-003 v0.5 (service area 35 km around the route, message classes are TR-17) |
