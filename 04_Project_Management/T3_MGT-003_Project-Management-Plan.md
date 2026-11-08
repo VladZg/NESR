@@ -27,8 +27,8 @@ The WBS is in [T3_MGT-006_WBS.xlsx](T3_MGT-006_WBS.xlsx). Top level: 1.1 project
 
 | Milestone | Date | Exit criteria |
 | --- | --- | --- |
-| SRR | YYYY-MM-DD | System requirements and ConOps agreed; tag `srr-baseline` |
-| PDR | YYYY-MM-DD | 9 deliverables at v1.0; tag `pdr-v1.0` |
+| SRR | October 2026 | System requirements and ConOps agreed; tag `srr-baseline` |
+| PDR | 9/11/2026 | 9 deliverables at v1.0; tag `pdr-v1.0` |
 
 ## 5. Deliverables
 
