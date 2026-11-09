@@ -3,7 +3,7 @@
 **Deliverable:** Configuration management and data management baseline plan. **Owner:** Jash Joshi.
 # Configuration Management Baseline Plan
 
-## 4. Controlled Configuration Items
+## 1. Controlled Configuration Items
 
 The following project artifacts are controlled:
 
@@ -21,7 +21,7 @@ The following project artifacts are controlled:
 
 ---
 
-## 5. Version Control
+## 2. Version Control
 
 Working versions use the following format:
 
@@ -39,7 +39,7 @@ This version represents the **PDR baseline**.
 
 ---
 
-## 6. Change Management
+## 3. Change Management
 
 Changes to an approved baseline follow the process:
 
@@ -57,7 +57,7 @@ For each important change, the team records:
 
 # Data Management Baseline Plan
 
-## 7. Data Management
+## 4. Data Management
 
 Project data is organized by workstream and maintained in the common project repository.
 
@@ -84,7 +84,7 @@ Each controlled artifact should have:
 
 ---
 
-## 8. Traceability
+## 5. Traceability
 
 The project maintains traceability between:
 
@@ -98,7 +98,7 @@ This ensures that every important requirement can be linked to:
 
 ---
 
-## 9. PDR Baseline
+## 6. PDR Baseline
 
 The purpose of the PDR baseline is to establish one consistent system definition for further development.
 
@@ -119,7 +119,7 @@ After PDR approval, major changes should follow the defined change-management pr
 
 ---
 
-## 10. Main PDR Management Objective
+## 7. Main PDR Management Objective
 
 The main objective is to ensure that:
 
