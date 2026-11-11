@@ -49,5 +49,4 @@ Four new diagrams: `[LAB]` logical components, actors and component exchanges; `
 - Requirement IDs quoted in the descriptions of capabilities and scenarios follow REQ-003 v0.3; after the renumbering to v0.5 (13 SR, 22 TR) they have to be re-checked.
 - The model holds no requirements (the Requirements viewpoint is not used), so the trace "requirement → function" lives only in REQ-003.
 - The Logical Architecture has no capability realizations, scenarios or functional chains yet.
-- Diagram exports for the Logical Architecture are not in `../diagrams/3_Logical_Architecture/` yet; `[SAB]` is about 7000 × 3300 px and should be exported as SVG.
 - Naming is inconsistent across the repository and the model: "SMCS" and "SCMS", and the system is called just "System" in the System Analysis.
