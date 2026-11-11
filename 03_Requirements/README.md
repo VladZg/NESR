@@ -21,6 +21,6 @@ File names, versions and reviews: see [CONTRIBUTING.md](../CONTRIBUTING.md).
 - **Stakeholders:** SM and GM removed, RG limited to maritime and navigation rules.
 - **Sheets:** Review log and Open items removed. Traceability and Verification summary rebuilt for the new IDs.
 
-Old TR numbers of v0.4 → new: 01 → 1, 02 → 2, 04 → 3, 05 → 4, 06 → 5, 07 → 6, 09 → 7, 12 → 8, 13 → 9, 17 → 10, 19 → 11, 21 → 12, 26 → 13, 27 → 14, 32 → 15, 34 → 16, 35 → 17, 36 → 18. The other v0.4 requirements (TR-03, 08, 10, 11, 14 to 16, 18, 20, 22 to 25, 28 to 31, 33, 37 to 43) were removed. Other CIs that cite TR numbers (for example the V&V plan) still use the v0.4 numbering until they are updated.
+Where the v0.4 requirements went (v0.4 → v0.5): TR-01 → TR-1, TR-02 and TR-14 → TR-2, TR-03 and TR-04 → TR-3, TR-05 → TR-4, TR-06 → TR-5, TR-07 → TR-6, TR-09 → TR-7, TR-12 and TR-15 → TR-8, TR-13 → TR-9, TR-17 → TR-10, TR-19 → TR-11, TR-21 → TR-12, TR-26 → TR-13, TR-27 → TR-14, TR-32 → TR-15, TR-34 → TR-16, TR-10, TR-11, TR-35 → TR-17, TR-36 → TR-18, TR-29 → TR-19, TR-08 → TR-20, TR-28 → TR-22. No longer in the set: TR-16, TR-18, TR-20 (v0.4), the hardware and maintenance requirements (TR-22 to TR-25, TR-31, TR-33), TR-30 (frequencies, the operators' responsibility) and TR-37 to TR-43. Older SR-01 to SR-11 IDs of v0.3 became SR-<stakeholder code>-NN in v0.4.
 
 The md files were updated to match: REQ-003 md v0.5 (generated from the xlsx), REQ-002 v0.3 (stakeholders) and REQ-001 v0.3 (G1). If the md and the xlsx differ, the xlsx is the reference.

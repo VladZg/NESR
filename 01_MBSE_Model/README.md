@@ -4,10 +4,10 @@ MBSE model of the system in Arcadia-Capella: stakeholders' analysis, operational
 
 | Content | Folder | Status |
 | --- | --- | --- |
-| Capella project (zip of the project folder) | [capella](capella/) | to upload |
+| Capella project (zip of the project folder) | [capella](capella/) | v0.2, in the repository |
 | Operational Analysis: OAB, OEBD, OCB | [diagrams/1_Operational_Analysis](diagrams/1_Operational_Analysis/) | draft |
-| System Analysis: CSA, SDFB, SAB, ES | [diagrams/2_System_Analysis](diagrams/2_System_Analysis/) | draft, ES planned |
-| Logical Architecture: LAB, LFBD | [diagrams/3_Logical_Architecture](diagrams/3_Logical_Architecture/) | **not started** |
+| System Analysis: CSA, SDFB, SAB, SFBD, MB, MCB, ES | [diagrams/2_System_Analysis](diagrams/2_System_Analysis/) | draft, 7 ES scenarios in the model |
+| Logical Architecture: LAB, LCBD, LFBD, LDFB | [diagrams/3_Logical_Architecture](diagrams/3_Logical_Architecture/) | in the model (v0.2), diagram exports pending |
 | IDEF0 A-0, A0, A4 | [functional_analysis](functional_analysis/) | draft |
 
 Stakeholders' analysis: operational entities and actors in the OEBD, plus the [stakeholder register](../03_Requirements/T3_REQ-002_Stakeholder-Register.md).
